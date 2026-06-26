@@ -1,0 +1,13 @@
+---
+title: "Building a Distributed Key-Value Store on Raft"
+subtitle: "A Learning Journey in Go (and a little React)"
+author: "AndyWang-v"
+date: "2026"
+lang: en-US
+toc: true
+toc-depth: 3
+numbersections: true
+geometry: "margin=1in"
+fontsize: 11pt
+colorlinks: true
+---

@@ -1,0 +1,32 @@
+# Local agent/session config — do not publish
+.devin/
+
+# macOS cruft
+.DS_Store
+
+# Node dependencies (regenerated via `npm install`)
+node_modules/
+
+# Rust build output
+target/
+
+# pandoc mermaid-filter scratch
+mermaid-filter.err
+
+# Go test / coverage output
+*.test
+*.out
+coverage.*
+
+# Compiled binaries (Go binaries have no extension; ignore known build targets)
+/cmd/kvnode/kvnode
+/cmd/kvctl/kvctl
+go-for-c-programmers/examples/workerpool/workerpool
+go-for-c-programmers/examples/linecount/linecount
+go-for-c-programmers/examples/taskapi/taskapi
+
+# Rendered book artifacts — Markdown is the source of truth.
+# (The two language-book PDFs are tracked explicitly via `git add -f`.)
+*.pdf
+*.epub
+*.html
