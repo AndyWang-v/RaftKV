@@ -1,5 +1,6 @@
-# Local agent/session config — do not publish
-.devin/
+# Local agent/session config — do not publish.
+# (Project skills under .devin/skills/ ARE tracked and shared.)
+.devin/config.local.json
 
 # macOS cruft
 .DS_Store
